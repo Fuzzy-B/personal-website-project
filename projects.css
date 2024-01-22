@@ -174,12 +174,10 @@ footer {
     }
     h1 {
         font-size: 1.25rem;
-        color: maroon;
     }
     nav > a {
         margin-right: .7rem;
         font-size: 1.25rem;
-        color: maroon;
     }
     img {
         width: 150px !important;
