@@ -90,6 +90,7 @@ p1 {
     align-items: flex-end;
     width: 40rem;
     margin: 20vh;
+     
 }
 
 img {
@@ -101,7 +102,7 @@ img {
 }
 
 main>div {
-    display:  block;
+    display:  flex;
     
 }
 
