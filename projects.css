@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: orange;
+
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    
+     
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    color: maroon;
+}
+nav > a {
+    margin-right: .7rem;
+    font-size: 2rem;
+    color: maroon;
+}
+
+/* END OF HEADER */
