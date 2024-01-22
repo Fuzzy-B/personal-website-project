@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    background-color: orange;
+    background-color:#CC5500;
 
     height: 75px;
     width: 100%;
@@ -39,64 +39,109 @@ nav > a {
 /* END OF HEADER */
 
 main {
-    min-height: 95vh;
+    display: block;
+    min-height: 85vh;
     min-width: 80vw;
     background-color: gray;
- 
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 aside {
-    min-height: 95vh;
-    min-width: 10vw;
+    min-height: 85vh;
+    width: 10vw;
     background-color: maroon;
 }
 
 body {
     display: flex;
     flex-direction: column;
-  
+    flex-wrap: wrap;
     align-items: center;
 }
 
 body>div {
     display: flex;
     padding-top: 75px;
-}
-
-img {
-    display: flex;
-    width: 450px;
-    float: right;
+    
 }
 
 h2 {
-    display: flex;
+     
     font-size: 50px;
     padding-left: 3rem;
     color: rgb(31, 2, 2);
+    height: 200px;
+     
 }
 
 p {
-    display: flex;
+    display: block;
     font-size: 25px;
+    max-width: 50vw;
+    align-items: center;
+    padding: 0 0 0 5vw;
 }
 
 p1 {
-     
+      
     font-size: 35px;
      color: antiquewhite;
+    align-items: flex-end;
+    width: 40rem;
+    margin: 20vh;
+}
+
+img {
+     
+    width: 450px;
+     
+    float: right;
+     
 }
 
 main>div {
-    display: flex;
-     
-
+    display:  block;
+    
 }
 
 /* FOOTER */
 footer {
     width: 100vw;
-    background-color: orange;
+    background-color: #CC5500;
     height: 10vh;
+    
      
+}
+
+@media screen and (max-width: 600px){
+    main {
+        min-width: 100vw !important;
+    }
+    aside {
+        width: 0px !important;
+    }
+     
+    img {
+        width: 150px !important;
+    }
+     
+}
+
+@media screen and (max-width: 850px) and (min-width: 600px){
+    p {
+        line-height: 39px !important;
+     }
+     img {
+        width: 225px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 850px){
+    p {
+        line-height: 39px !important;
+     }
+     img {
+        width: 300px !important;
+    }
 }

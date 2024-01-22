@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    background-color: orange;
+    background-color:#CC5500;
 
     height: 75px;
     width: 100%;
@@ -37,3 +37,162 @@ nav > a {
 }
 
 /* END OF HEADER */
+
+main {
+    display: block;
+    min-height: 85vh;
+    min-width: 80vw;
+    background-color: gray;
+    justify-content: center;
+    
+    
+     
+     
+}
+
+aside {
+    min-height: 85vh;
+    width: 10vw;
+    background-color: maroon;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+body>div {
+    display: flex;
+    padding-top: 75px;
+    
+    
+}
+
+#about-header-1 {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+section {
+    display: block;
+    padding: 8px 20px 0px 20px;
+     
+    min-height: 50vh;
+     
+    top: 20vh;
+    max-width: 80vw;
+}
+
+section > h2 {
+    
+    justify-self: center;
+    
+}
+
+section > p {
+      
+     line-height: 50px;
+     font-size: large;
+}
+
+section > img {
+    float: right;
+    width: 300px;
+}
+
+
+section2 {
+    display: block;
+    padding: 8px 20px 0px 20px;
+    border-top: 1px solid black;
+    min-height: 50vh;
+     
+    top: 20vh;
+    max-width: 80vw;
+}
+
+section2 > h2 {
+     
+    justify-self: center;
+    
+}
+section2 > p {
+     margin-top: 30px;
+     line-height: 50px;
+     font-size: large;
+}
+
+section2 > img {
+    float: right;
+    width: 300px;
+}
+
+section3 {
+    display: block;
+    padding: 8px 20px 0px 20px;
+    border-top: 1px solid black;
+    min-height: 50vh;
+     
+    top: 20vh;
+    max-width: 80vw;
+}
+
+section3 > h2 {
+     
+    justify-self: center;
+    
+}
+section3 > p {
+     margin-top: 30px;
+     line-height: 50px;
+     font-size: large;
+}
+
+section3 > img {
+    float: right;
+    width: 300px;
+}
+
+/* FOOTER */
+footer {
+    width: 100vw;
+    background-color: #CC5500;
+    height: 10vh;
+     
+}
+/* FOOTER */
+
+@media screen and (max-width: 600px){
+    main {
+        min-width: 100vw !important;
+    }
+    aside {
+        width: 0px !important;
+    }
+    h1 {
+        font-size: 1.25rem;
+        color: maroon;
+    }
+    nav > a {
+        margin-right: .7rem;
+        font-size: 1.25rem;
+        color: maroon;
+    }
+    img {
+        width: 150px !important;
+    }
+    p {
+        line-height: 25px !important;
+     }
+}
+
+@media screen and (max-width: 850px) and (min-width: 600px){
+    p {
+        line-height: 39px !important;
+     }
+     img {
+        width: 225px !important;
+    }
+}
