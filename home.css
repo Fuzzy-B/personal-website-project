@@ -165,11 +165,7 @@ footer {
     h2 {
         padding-left: 0rem;
     }
-    
-    p {
-        padding: 0 0 0 0;
-    }
-    
+     
     p1 {
         margin: 0;
          
@@ -189,16 +185,16 @@ footer {
 }
 
 @media screen and (max-width: 425px){
-    img {
-        width: 150px !important;
+    main {
+        display: flex !important;
+        flex-wrap: wrap; 
     }
     h2 {
-        font-size: 30px;
-    }
-    p {
-        font-size: 15px;
+        height: 11vh;
+        margin: 0; 
     }
     p1 {
-        font-size: 20px;
+        width: fit-content;
     }
+    
 }

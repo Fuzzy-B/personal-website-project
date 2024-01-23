@@ -179,16 +179,36 @@ footer {
         margin-right: .7rem;
         font-size: 1.25rem;
     }
-    img {
-        width: 150px !important;
-    }
+     
     p {
         line-height: 25px !important;
      }
+}
+
+@media screen and (max-width: 725px){
+    section{
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    section2{
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    section3{
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
 }
 
 @media screen and (max-width: 850px) and (min-width: 600px){
     p {
         line-height: 39px !important;
      }
+     
 }

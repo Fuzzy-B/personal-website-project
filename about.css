@@ -83,6 +83,7 @@ section {
      
     top: 20vh;
     max-width: 80vw;
+   
 }
 
 section > h2 {
@@ -98,7 +99,7 @@ section > p {
 }
 
 section > img {
-    float: right;
+     float: right;
     width: 300px;
 }
 
@@ -172,21 +173,39 @@ footer {
         width: 0px !important;
     }
     h1 {
-        font-size: 1.25rem;
-        color: maroon;
+        font-size: 1.25rem; 
     }
     nav > a {
         margin-right: .7rem;
         font-size: 1.25rem;
-        color: maroon;
     }
-    img {
-        width: 150px !important;
-    }
+     
     p {
         line-height: 25px !important;
      }
 }
+
+@media screen and (max-width: 700px){
+    section{
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    section2{
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    section3{
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+ 
+}
+
 
 @media screen and (max-width: 850px) and (min-width: 600px){
     p {
