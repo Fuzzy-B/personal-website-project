@@ -34,6 +34,20 @@ nav > a {
     margin-right: .7rem;
     font-size: 2rem;
     color: maroon;
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(31, 14, 14), 0 0 1em;
+    padding: 0.25rem;
+    
+}
+#page-on {
+    background-color: antiquewhite;
+    
+}
+a:hover {
+    background-color: antiquewhite;
+    transition: all 0.5s ease-out;
 }
 
 /* END OF HEADER */
@@ -44,9 +58,6 @@ main {
     min-width: 80vw;
     background-color: gray;
     justify-content: center;
-    
-    
-     
      
 }
 
@@ -211,4 +222,19 @@ footer {
         line-height: 39px !important;
      }
      
+}
+
+@media screen and (max-width: 550px){
+     
+    nav > a {
+        font-size: 0.75rem;
+        
+    }
+     
+}
+@media screen and (max-width: 675px){
+    nav > a {
+        margin-right: .7rem;
+        font-size: 1.25rem;
+    }
 }

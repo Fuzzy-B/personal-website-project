@@ -34,6 +34,19 @@ nav > a {
     margin-right: .7rem;
     font-size: 2rem;
     color: maroon;
+    background-color: rgb(17, 14, 14);
+    border-radius: 5px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(31, 14, 14), 0 0 1em;
+    padding: 0.25rem;
+}
+#page-on {
+    background-color: antiquewhite;
+    
+}
+a:hover {
+    background-color: antiquewhite;
+    transition: all 0.5s ease-out;
 }
 
 /* END OF HEADER */
@@ -63,7 +76,8 @@ body {
 body>div {
     display: flex;
     padding-top: 75px;
-    
+    font-size: 30px;
+     
 }
 
 h2 {
@@ -102,25 +116,67 @@ img {
 }
 
 main>div {
-    display:  flex;
-    
+    display:  flex; 
 }
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#contact-header {
+   font-size: 50px; 
+}
+  
+.label {
+    margin-top: 2rem;
+}
+
+.input {
+    width: 40em;
+    height: 2.5em;
+}
+.message {
+    height: 7.5em;
+}
+
+/* SUCCESS PAGE */
+.success-message {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* SUCCESS PAGE */
 
 /* FOOTER */
 footer {
     width: 100vw;
     background-color: #CC5500;
-    height: 10vh;
-    
-     
+    height: 10vh; 
 }
-
+/* FOOTER */
  
 
 @media screen and (max-width: 550px){
     h1 {
         font-size: 1.25rem;
     }
+    nav > a {
+        font-size: 0.75rem;
+        
+    }
+     
+}
+@media screen and (max-width: 675px){
     nav > a {
         margin-right: .7rem;
         font-size: 1.25rem;
@@ -197,4 +253,10 @@ footer {
         width: fit-content;
     }
     
+}
+
+@media screen and (max-width: 1065px){
+    .input {
+        width: 50vw;
+    }
 }

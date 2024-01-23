@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Contact</title>
     <script src="code.js"></script>
     <link rel="stylesheet" href="home.css">
-  
+    <script defer src="contact.js"></script>
 </head>
- 
+
 <body>
     <Header>
         <div>
@@ -23,17 +23,23 @@
         </nav>
     </Header>
 
-    <div> 
+    <div>
         <aside></aside>
-        <main>
-            <img src="Headshot.JPG" alt="Ian's headshot"> 
-            <h2>Aspiring Web Developer</h2>
-             
-            <p>Currently enrolled in Fullstack Academy's web development bootcamp. Refining skills in HTML, CSS, and Javascript currently.</p>
-             
-            <div>    
-             <p1>"Success is not final; failure is not fatal: It is the courage to continue that counts." — Winston S. Churchill</p1>
-            </div>  
+        <main class="contact-page">
+            <h1 id="contact-header">Contact Me:</h1>
+            <form id="form">
+              <label class="label">Name:</label>  
+              <input class="input" type="text">
+
+              <label class="label">Email:</label>
+              <input class="input" type="email">
+
+              <label class="label">Message:</label>
+              <textarea class="input message" name="message" rows="6" cols="20"></textarea>
+
+              <input class="label" id="submit" type="submit">
+
+            </form>
         </main>
         <aside></aside>
     </div>
